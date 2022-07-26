@@ -104,7 +104,7 @@ public class FirstQueryTest implements JavaSamplerClient {
     @Override
     public Arguments getDefaultParameters() {
         Arguments arguments = new Arguments();
-        arguments.addArgument("url","jdbc:mysql://10.55.105.177:3306/jira");
+        arguments.addArgument("url","jdbc:mysql://xxxx:3306/jira");
         arguments.addArgument("user_name","root");
         arguments.addArgument("pass_wd","123456");
         arguments.addArgument("sql_name", "admin");
